@@ -3,6 +3,11 @@ This simple application is a fork of Matthew Willard's [flipper-mouse-jiggler](h
 
 **WARNING: Do not use this application to interact with a system that you do not own unless you have explicitly been granted permission to do so. If you choose to use this application in an unauthorized manner, I am not responsible for the consequences you may face.**
 
+## Behavior
+The application generates short, bounded random walks at varied intervals. Each burst balances its displacement to avoid cumulative cursor drift, and unnecessary zero-movement HID reports are not sent. Press **OK** to pause or resume motion.
+
+This application does not make a Flipper Zero or its input undetectable. A connected computer can identify USB hardware and distinguish synthetic input in several ways. Use it only for authorized testing, demonstrations, or accessibility workflows where the device is permitted.
+
 ## Installing
 1. Download the FAP file from the [release page](https://github.com/DavidBerdik/flipper-mouse-jiggler/releases).
 2. Copy the FAP file to your Flipper. The easiest way to do this is by using the [qFlipper desktop application](https://flipperzero.one/downloads). The recommended storage location for this application is 'SD Card/apps/USB/'.
