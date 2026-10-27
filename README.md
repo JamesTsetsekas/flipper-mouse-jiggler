@@ -9,7 +9,7 @@ The application generates short, bounded random walks at varied intervals. Each 
 This application does not make a Flipper Zero or its input undetectable. A connected computer can identify USB hardware and distinguish synthetic input in several ways. Use it only for authorized testing, demonstrations, or accessibility workflows where the device is permitted.
 
 ## Installing
-1. Download the FAP file from the [release page](https://github.com/DavidBerdik/flipper-mouse-jiggler/releases).
+1. Download the FAP file from the [release page](https://github.com/JamesTsetsekas/flipper-mouse-jiggler/releases/latest).
 2. Copy the FAP file to your Flipper. The easiest way to do this is by using the [qFlipper desktop application](https://flipperzero.one/downloads). The recommended storage location for this application is 'SD Card/apps/USB/'.
 3. On your Flipper, navigate to 'Apps > USB > Mouse Jiggler' and launch the application.
 4. Plug your Flipper in to a computer using a USB cable. While the application is running, the Flipper will present itself to the computer as a mouse and send arbitrary movement instructions to the system.
